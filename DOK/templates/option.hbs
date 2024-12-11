@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <style>
+        body {
+            background-image: url('re.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .button {
+            background-color: lawngreen;
+            color: Black;
+            border: none;
+            padding: 15px;
+            margin: 10px;
+            width: 500px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 10px;
+            transition: opacity 0.3s;
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <a href="/Apti"><button id="aptiBtn" class="button">Aptitude Round</button></a>
+    <a href="/TechnicalRound"><button id="techBtn" class="button">Technical Round</button></a>
+    <button class="button" id="hrBtn">HR Round</button>
+</body>
+</html>
